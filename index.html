@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor de Carreiras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎓 Mentor de Carreiras</h1>
+    <p>Descubra qual profissão combina com você!</p>
+</header>
+
+<section class="container">
+
+    <h2>Responda algumas perguntas</h2>
+
+    <label>Você gosta mais de:</label>
+
+    <select id="interesse">
+        <option value="">Selecione</option>
+        <option value="exatas">Matemática e Tecnologia</option>
+        <option value="humanas">História e Línguas</option>
+        <option value="biologicas">Biologia e Saúde</option>
+        <option value="artes">Arte e Criatividade</option>
+    </select>
+
+    <button onclick="descobrir()">Descobrir Curso</button>
+
+    <div id="resultado"></div>
+
+</section>
+
+<footer>
+    <p>Projeto Mentor de Carreiras © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
